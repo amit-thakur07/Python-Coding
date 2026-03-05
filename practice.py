@@ -1,54 +1,49 @@
-# 1 taking user input and performing differnet operations 
-# a= int(input("enter 1st number: "))
-# b= int(input("enter 2st number: "))
-# c= int(input("enter 3rd number: "))
-# print("sum of two numbers is: ",a+b)
-# print("diffrence of two numbers is: ",a-b)
-# print("multiplication of two numbers is: ",a*b)
-# print("division of two numbers is: ",a/b)
-# print("remainder of two numbers is: ",a%b)
-# print("floor division of two numbers is: ",a//b)
-# print("square of a number is: ",a*2)
-# print("cube of a number is: ",a*3)
-# print("average of three numbers is: ",(a+b+c)/3)
-# print("simple intest of three numbers is: ",(a*b*c)/100)
-
-
-# 2
+#1 
+# name= "amit"
+# print(name)
+#2
+# age=12
+# print(age)
+#3
+# price=99.50
+# print(price)
+#4
+# a=10
+# b=20
+# c=30
+# print(a+b+c)
+#5
+# is_student=True
+# print(is_student)
+#part 2 --1
+# a=input("enter your name: ")
+# print(f"hello! {a}")
+#2
+# num=int(input("enter first number:"))
+# num2=int(input("enter second number:"))
+# print(f"the sum of entered two numbers is: {num+num2}")
+#3
 # a=12
-# b=4
-# print(a>b)
-# print(a>=b)
-# print(a==b)
-# print(a<b)
-# print(a<=b)
-# print(a!=b)
+# print(type(a),a)
+# c= str(a)
+# print(c,type(c))
+#4
+# x=float(input("enter a number: "))
+# print(x,type(x))
+# y=int(x)
+# print(y,type(y))
+#part 4 mixed
 
-#3 
- # a=19
-# print(a>18)
-# print(a<18) #chck wthr num is less than 18 or greater thn 18
+# name=input("enter your name: ")
+# age=int(input("enter your age: "))
+# print(f"My name is {name} and i am {age} years old")
 
-# a=20
-# b=12
-# print(a>12 and b<11)
-# print(a<12 or b<11)
-# print(a<12  and not b>10)
-# print(a==b,a!=b,a>b)
+# lenght=int(input("enter the lenght: "))
+# breadth=int(input("enter breadth : "))
+# print("Area of rectangle: " ,lenght*breadth)
 
-# a=int(input("enter numbr: "))
-# if a<100:
-#   print("number is less than 100")
-
-# a=20
-# b=30
-# print(a and b)
-
-
-
-
-
-
-
-
-
+a=int(input("enter first value: "))
+b=int(input("enter second value: "))
+c=int(input("enter third value: "))
+d=(a+b+c)/3
+print(d)
