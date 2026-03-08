@@ -1,49 +1,32 @@
-#1 
-# name= "amit"
-# print(name)
-#2
-# age=12
-# print(age)
-#3
-# price=99.50
-# print(price)
-#4
-# a=10
-# b=20
-# c=30
-# print(a+b+c)
-#5
-# is_student=True
-# print(is_student)
-#part 2 --1
-# a=input("enter your name: ")
-# print(f"hello! {a}")
-#2
-# num=int(input("enter first number:"))
-# num2=int(input("enter second number:"))
-# print(f"the sum of entered two numbers is: {num+num2}")
-#3
-# a=12
-# print(type(a),a)
-# c= str(a)
-# print(c,type(c))
-#4
-# x=float(input("enter a number: "))
-# print(x,type(x))
-# y=int(x)
-# print(y,type(y))
-#part 4 mixed
+# i=0
+# while(i<=10):
+#  print(i)
+# i=i+1
 
-# name=input("enter your name: ")
-# age=int(input("enter your age: "))
-# print(f"My name is {name} and i am {age} years old")
+#2 i=10
+# while(i>0):
+#     print(i)
+#     i-=1
 
-# lenght=int(input("enter the lenght: "))
-# breadth=int(input("enter breadth : "))
-# print("Area of rectangle: " ,lenght*breadth)
+# i=0
+# while( i<=20):
+#  print(i)
+#  i+=2
+# i=1
+# while(i<=20):
+#     print(i)
+#     i+=2
+# i=0
+# while(i<=10):
+#     print("7 *",i,"=",7*i)
+#     i+=1
+# n = int(input("Enter a number (0 to stop): "))
+# while n != 0:
+#     print(n)
+#     n = int(input("Enter a number (0 to stop): "))...........................best question
 
-a=int(input("enter first value: "))
-b=int(input("enter second value: "))
-c=int(input("enter third value: "))
-d=(a+b+c)/3
-print(d)
+n=int(input("enter a number: "))
+i=0
+total=0
+while(i<=n):
+    print()
